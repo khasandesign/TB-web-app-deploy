@@ -1,0 +1,300 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url(//db.onlinewebfonts.com/c/7d471943896f9c5d763b7ec301cd5fc7?family=ITC+Cheltenham); */
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    background: #080808;
+  }
+  .yesevaFont {
+    font-family: 'Yeseva One', cursive;
+  }
+}
+
+@font-face {
+  font-family: Clarendon;
+  font-weight: 400;
+  src: url('~assets/fonts/ClarendonRegular.otf');
+}
+@font-face {
+  font-family: ITC Cheltenham;
+  src: url('@/assets/fonts/CheltenhamITCBook.otf');
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .flexbox {
+    @apply flex items-center justify-center;
+  }
+
+  .mask1 {
+    -webkit-mask-image: url('@/assets/home-img/mask.png');
+    mask-image: url('@/assets/home-img/mask.png');
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+
+  .mask2 {
+    -webkit-mask-image: url('@/assets/home-img/mask2.png');
+    mask-image: url('@/assets/home-img/mask2.png');
+    /* -webkit-mask-size: 100%; */
+    /* mask-size: 427px; */
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+
+  .content {
+    @apply w-full px-1 mx-auto;
+  }
+
+  @screen md {
+    .content {
+      @apply px-0 w-10/12;
+    }
+  }
+}
+
+@layer components {
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  .h7 {
+    @apply font-bold;
+  }
+
+  /* Mobile styles for typography */
+  .h1 {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+  }
+
+  .h2 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+  }
+
+  .h3 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+  }
+
+  .h4 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+  }
+
+  .h5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .h7 {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+  }
+
+  .par-1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .par-2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .btn-lg {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .btn-md {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn-sm {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .subheadline {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+
+  .caption {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+  }
+
+  .caps {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .divider {
+    @apply w-full bg-white/10;
+    height: 1px;
+  }
+
+  /* Tablet and desktop styles for typography and layout */
+
+  @screen sm {
+    .h1 {
+      font-size: 72px;
+      line-height: 72px;
+    }
+
+    .h2 {
+      font-size: 56px;
+      line-height: 56px;
+    }
+
+    .h3 {
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    .h4 {
+      font-size: 32px;
+      line-height: 32px;
+    }
+
+    .h5 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    .h6 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    .h7 {
+      font-size: 16px;
+      line-height: 16px;
+    }
+
+    .par-1 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .par-2 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .btn-lg {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .btn-md {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .btn-sm {
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    .subheadline {
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.1px;
+    }
+
+    .caption {
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.4px;
+    }
+
+    .caps {
+      font-size: 11px;
+      line-height: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+
+  @screen 2xl {
+    width: 1440px;
+    margin: 0 auto;
+    margin: 0 auto;
+  }
+}
+
+.material-icons {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 2560px;
+  margin: 0 auto;
+}
+
+.container {
+  @apply w-full px-3 mx-auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
