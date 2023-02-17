@@ -73,7 +73,7 @@
         <footer class="mt-9 flex items-center flex-col pb-[36px]">
           <img
             src="~/static/logo-large.svg"
-            alt="topbreyns-logo"
+            alt="topbrains-logo"
             class="mb-3"
           />
           <p class="mt-3 par-2 text-label-secondary-dark">
@@ -83,22 +83,22 @@
           <ul class="flex gap-x-5 mt-6">
             <li>
               <a href="https://facebook.com">
-                <img src="~/static/facebook.svg" alt="topbreyns-facebook" />
+                <img src="~/static/facebook.svg" alt="topbrains-facebook" />
               </a>
             </li>
             <li>
               <a href="https://instagram.com">
-                <img src="~/static/instagram.svg" alt="topbreyns-instagram" />
+                <img src="~/static/instagram.svg" alt="topbrains-instagram" />
               </a>
             </li>
             <li>
               <a href="https://t.me">
-                <img src="~/static/telegram.svg" alt="topbreyns-telegram" />
+                <img src="~/static/telegram.svg" alt="topbrains-telegram" />
               </a>
             </li>
             <li>
               <a href="https://youtube.com">
-                <img src="~/static/youtube.svg" alt="topbreyns-youtube" />
+                <img src="~/static/youtube.svg" alt="topbrains-youtube" />
               </a>
             </li>
           </ul>

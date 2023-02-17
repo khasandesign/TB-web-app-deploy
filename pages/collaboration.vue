@@ -40,7 +40,7 @@
         <div class="flex items-center">
           <img src="/small-logo.svg" />
           <p class="subheadline ml-1.5 text-label-secondary-dark">
-            TopBreyns - {{ $t('collab.support') }}
+            TopBrains - {{ $t('collab.support') }}
           </p>
         </div>
       </section>
@@ -73,10 +73,10 @@
           <p class="par-2">
             {{ $t('collab.secondBand') }}
             <a href="youtube.com" class="text-primary">
-              collaboration@topbreyns.com</a
+              collaboration@topbrains.com</a
             >
             {{ $t('collab.secondBand2') }}
-            <a href="google.com" class="text-primary">@topbreyns</a>.
+            <a href="google.com" class="text-primary">@topbrains</a>.
           </p>
         </div>
         <div class="mt-9 md:mt-12">
@@ -122,10 +122,10 @@
           <p class="par-2">
             {{ $t('collab.fifthBand') }}
             <a href="http://zerodollarmovies.com/" class="text-primary"
-              >collaboration@topbreyns.com</a
+              >collaboration@topbrains.com</a
             >
             {{ $t('collab.secondBand2') }}
-            <a href="http://scr.im/" class="text-primary">@topbreyns</a>.
+            <a href="http://scr.im/" class="text-primary">@topbrains</a>.
           </p>
         </div>
         <div class="mt-9 md:mt-12">

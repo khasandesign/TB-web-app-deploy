@@ -137,7 +137,7 @@ export default {
       const sampleAuthor = {
         avatar: require('~/assets/images/profile.png'),
         name: {
-          firstName: 'TopBreyns',
+          firstName: 'TopBrains',
           middleName: '-',
           lastName: 'Поддержка',
         },

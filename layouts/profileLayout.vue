@@ -48,7 +48,7 @@
             >
               <img
                 :src="course.thumbnail"
-                alt="top-breyns-course"
+                alt="top-brains-course"
                 class="w-12 h-12 rounded-full bg-center bg-cover object-cover"
               />
             </NuxtLink>

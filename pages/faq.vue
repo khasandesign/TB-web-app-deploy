@@ -59,7 +59,7 @@ export default {
   },
   head() {
     return {
-      title: 'TopBreyns - FAQ',
+      title: 'TopBrains - FAQ',
     }
   },
 }

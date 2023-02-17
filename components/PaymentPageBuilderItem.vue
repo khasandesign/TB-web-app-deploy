@@ -34,7 +34,7 @@
           <nuxt-link :to="localePath('/')">
             <img
               src="@/assets/icons/Logo.svg"
-              alt="TopBreyns"
+              alt="TopBrains"
               class="mx-auto mt-6 mb-[50px] md:hidden"
             />
           </nuxt-link>

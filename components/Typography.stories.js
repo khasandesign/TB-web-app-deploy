@@ -10,14 +10,14 @@ export const h5 = () => '<h5 class="h5">h5.TB heading</h5>'
 export const h6 = () => '<h6 class="h6">h6.TB heading</h6>'
 export const h7 = () => '<h7 class="h7">h7.TB heading</h7>'
 export const Par1 = () => `
-  <p class="par-1">TopBreyns design system is a set of basic elements and a concept for their
+  <p class="par-1">TopBrains design system is a set of basic elements and a concept for their
     use in such a way as to get the maximum response and convenience from the
     interface.
   </p>
 `
 
 export const Par2 = () => `
-  <p class="par-2">TopBreyns design system is a set of basic elements and a concept for their
+  <p class="par-2">TopBrains design system is a set of basic elements and a concept for their
     use in such a way as to get the maximum response and convenience from the
     interface.
   </p>

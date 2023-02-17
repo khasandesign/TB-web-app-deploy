@@ -13,7 +13,7 @@
               <nuxt-link :to="localePath('/')">
                 <img
                   src="~/static/logo-large.svg"
-                  alt="topbreyns-logo"
+                  alt="topbrains-logo"
                   class="mb-3"
                 />
               </nuxt-link>
@@ -170,7 +170,7 @@
                   size="large"
                   :href="$store.state.socialNetworks.telegram"
                 >
-                  <img src="~/static/telegram.svg" alt="topbreyns-telegram" />
+                  <img src="~/static/telegram.svg" alt="topbrains-telegram" />
                   {{ $t('blogs.follow') }}
                 </BaseButton>
               </div>
@@ -179,8 +179,8 @@
           <div
             class="border-t hidden mb-4 pt-8 pb-10 border-t-gray-5-dark w-full lg:flex gap-x-10 text-gray-8-dark font-medium"
           >
-            <img src="~/static/logo.svg" alt="topbreyns-logo" />
-            <span>&copy; 2021 TopBreyns</span>
+            <img src="~/static/logo.svg" alt="topbrains-logo" />
+            <span>&copy; 2021 TopBrains</span>
             <span class="flex items-center gap-x-[11.34px]">
               <span class="material-icons">lock</span>
               {{ $t('footer.ssl') }}
@@ -198,7 +198,7 @@
         size="large"
         href="https://t.me/mohirdev"
       >
-        <img src="~/static/telegram.svg" alt="topbreyns-telegram" />
+        <img src="~/static/telegram.svg" alt="topbrains-telegram" />
         {{ $t('blogs.follow') }}
       </BaseButton>
     </div>
@@ -220,22 +220,22 @@ export default {
         {
           image: require('~/static/facebook.svg'),
           url: this.$store.state.socialNetworks.facebook,
-          alternative: 'topbreyns-facebook',
+          alternative: 'topbrains-facebook',
         },
         {
           image: require('~/static/instagram.svg'),
           url: this.$store.state.socialNetworks.instagram,
-          alternative: 'topbreyns-instagram',
+          alternative: 'topbrains-instagram',
         },
         {
           image: require('~/static/telegram.svg'),
           url: this.$store.state.socialNetworks.telegram,
-          alternative: 'topbreyns-telegram',
+          alternative: 'topbrains-telegram',
         },
         {
           image: require('~/static/youtube.svg'),
           url: this.$store.state.socialNetworks.youtube,
-          alternative: 'topbreyns-youtube',
+          alternative: 'topbrains-youtube',
         },
       ]
     },

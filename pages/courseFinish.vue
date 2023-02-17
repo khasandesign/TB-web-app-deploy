@@ -8,7 +8,7 @@
         <img
           src="https://thiscatdoesnotexist.com/"
           class="w-20 h-20 rounded-full mb-6"
-          alt="top-breyns-image"
+          alt="top-brains-image"
         />
         <div
           class="flex flex-col items-center text-anime w-8/12 md:w-4/12"

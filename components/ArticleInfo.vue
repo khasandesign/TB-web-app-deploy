@@ -4,7 +4,7 @@
       <img
         :src="info.avatar"
         class="w-5 h-5 rounded-full"
-        alt="top-breyns-article-author"
+        alt="top-brains-article-author"
       />
       <NuxtLink :to="`/teacher/${info.id}`">
         {{ info.firstName }}

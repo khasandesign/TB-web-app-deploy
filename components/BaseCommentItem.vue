@@ -39,7 +39,7 @@
             <img
               class="h-10 w-10 md:w-9 md:h-9 rounded-full"
               src="~/assets/images/profile.png"
-              alt="top-breyns"
+              alt="top-brains"
             />
           </div>
           <textarea

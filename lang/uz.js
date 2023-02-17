@@ -61,7 +61,7 @@ export default {
   signIn: 'Kirish',
   signUp: "Ro'yhatdan o'tish",
   toSignUp: "Ro'yhatdan o'ting",
-  signInText: 'TopBreyns akauntingizga kiring yoki',
+  signInText: 'TopBrains akauntingizga kiring yoki',
   signInPasswordPalceholder: 'Parolingiz...',
   forgotPassword: 'Parolni unutdingizmi?',
   rememberMe: 'Eslab qolish',
@@ -111,7 +111,7 @@ export default {
   collab: {
     support: "qo'llab-quvvatlash",
     partnership: 'Sizdek professionallar bilan,',
-    withYou: ' TopBreyns-da hamkorlik.',
+    withYou: ' TopBrains-da hamkorlik.',
     mainPicCaption: 'Alisher Isaev bilan hamkorlikning boshlanishi.',
     firstBand:
       "Biz har doim o'z sohamizning ustalari bilan hamkorlik qilishdan xursandmiz va birgalikda kurs yozishdan xursand bo'lamiz. Quyida biz buni qanday qilishimiz va mavjud kurslarni suratga olishdan olingan fotosuratlar bilan tanishishingizni tavsiya qilamiz.",
@@ -126,7 +126,7 @@ export default {
     thirdBandRequirements3: 'Taniqli kompaniyalar bilan hamkorlik',
     fourthBandHeader: 'Biz qanday suratga olamiz',
     fourthBand:
-      "TopBreyns prodyuserlik jamoasi eng yuqori sifatli video suratga olish, montaj qilish va kursni tuzishga e'tibor qaratadi, biz sizdan sizning tajribangiz va sohangiz bo'yicha bilimingizni talab qilamiz va birgalikda kurs rejasini tuzamiz, shundan so'ng biz uni yozamiz va bizning mutaxassislarimiz tayyor mahsulot yaratadi. Siz kursni oldindan ko'rishingiz va uning tayyorligini tasdiqlashingiz mumkin.",
+      "TopBrains prodyuserlik jamoasi eng yuqori sifatli video suratga olish, montaj qilish va kursni tuzishga e'tibor qaratadi, biz sizdan sizning tajribangiz va sohangiz bo'yicha bilimingizni talab qilamiz va birgalikda kurs rejasini tuzamiz, shundan so'ng biz uni yozamiz va bizning mutaxassislarimiz tayyor mahsulot yaratadi. Siz kursni oldindan ko'rishingiz va uning tayyorligini tasdiqlashingiz mumkin.",
     photoCaption: 'Kursni suratga olish jarayonidan olingan suratlar.',
     photoCaption2: 'Kursning suratga olish jarayonidan video.',
     fourthBandEnding:
@@ -136,7 +136,7 @@ export default {
       "Kursning o'zi ham o'z sohangizdagi professional sifatida siz uchun imidj yaratish va auditoriyani to'plashning kuchli manbaidir. Kursdan olinadigan foydaga kelsak, siz shartnoma bo'yicha kelajakdagi barcha sotuvlarning 50 foizini olasiz, batafsil ma'lumot uchun biz bilan bog'laning ",
     sixthBandHeader: 'Bizga qanday kasblar kerak',
     sixthBand:
-      "TopBreyns nafaqat o'z auditoriyasi bilan, balki sizning yoki kelajakda sizniki bolishi mumkin bolgan auditoriya bilan ham ishlaganligi sababli, biz eng keng tarqalgan va eng tor kasblardan tortib, hatto biznes va boshqa sohalarni yuritish ustalarigacha bo'lgan eng keng doiradagi kasblarni qabul qilamiz.",
+      "TopBrains nafaqat o'z auditoriyasi bilan, balki sizning yoki kelajakda sizniki bolishi mumkin bolgan auditoriya bilan ham ishlaganligi sababli, biz eng keng tarqalgan va eng tor kasblardan tortib, hatto biznes va boshqa sohalarni yuritish ustalarigacha bo'lgan eng keng doiradagi kasblarni qabul qilamiz.",
     submit: 'Ariza yuborish',
     submitInfo:
       'Siz shu yerda, quyidagi forma orqali ariza yuborishingiz mumkin, shuningdek, forma ostida sizni bevosita menejerlarimiz bilan telegram chatiga olib boradigan tugmani topasiz.',
@@ -221,7 +221,7 @@ export default {
   createAccount: 'Hisob yaratish',
   register: {
     continue: 'Davom etish',
-    firstText: 'Yangi TopBreyns akaunti yarating',
+    firstText: 'Yangi TopBrains akaunti yarating',
     secondText: 'mavjud akkauntga',
     signIn: 'Kiring',
     allow:
@@ -249,8 +249,8 @@ export default {
   faq: {
     title: "Ko'p so'raladigan savollar",
     what: {
-      que: 'TopBreyns nima?',
-      ans: "TopBreyns - bu o'z sohasidagi eng yaxshi mutaxassislarning kurslariga ega onlayn o'quv platformasi. TopBreyns kurslarni o'zi suratga oladi va o'zining tahrirlash guruhiga ega, shuning uchun biz sizga yuqori darajadagi video darslarni va murabbiylarimiz tomonidan yoqimli va bosqichma-bosqich o'rganish jarayonini kafolatlaymiz.",
+      que: 'TopBrains nima?',
+      ans: "TopBrains - bu o'z sohasidagi eng yaxshi mutaxassislarning kurslariga ega onlayn o'quv platformasi. TopBrains kurslarni o'zi suratga oladi va o'zining tahrirlash guruhiga ega, shuning uchun biz sizga yuqori darajadagi video darslarni va murabbiylarimiz tomonidan yoqimli va bosqichma-bosqich o'rganish jarayonini kafolatlaymiz.",
     },
     whatYouGet: {
       que: 'Kursni sotib olganingizda nima olasiz?',
@@ -324,7 +324,7 @@ export default {
   lessons: 'Darslar',
   courses: 'Kurslar',
   coursesDescription:
-    "TopBreyns sizni qiziqtiradigan boshqa ko'plab mutaxassislardan kurslarni otadi",
+    "TopBrains sizni qiziqtiradigan boshqa ko'plab mutaxassislardan kurslarni otadi",
   articles: 'Maqolalar',
   unAuthFooterDesc:
     'Yangiliklar, anonslar va chegirmalar bizning telegram kanalimizda',
@@ -361,7 +361,7 @@ export default {
     get: 'Sertifikatni olish',
     certificateFor: '{author} kursini tamomlaganlik uchun sertifikat',
     certificateGiven:
-      'Sertifikat TopBreyns MChJ tomonidan {date} da berilgan va vaqt cheklovlarisiz amal qiladi.',
+      'Sertifikat TopBrains MChJ tomonidan {date} da berilgan va vaqt cheklovlarisiz amal qiladi.',
     download: 'Sertifikatni yuklash',
     orderPhysicalVersion: 'Jismoniy versiyasini buyurtma qilish',
   },
@@ -370,7 +370,7 @@ export default {
     logout: 'Chiqish',
   },
   congrat: 'tabriklaymiz!',
-  finishCourse: "Siz TopBreyns kursini to'liq tugatdingiz",
+  finishCourse: "Siz TopBrains kursini to'liq tugatdingiz",
   pageNotFoundTitle: '404 - sahifa topilmadi',
   pageNotFoundDesc: "Qidirib ko'ring yoki {link}ga o'ting",
   internalServerError:

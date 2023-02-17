@@ -5,7 +5,7 @@
     <div class="flex items-center mb-6 md:mb-0">
       <img src="../static/small-logo.svg" />
       <p class="subheadline ml-1.5 text-label-secondary-dark">
-        TopBreyns - {{ $t('collab.support') }}
+        TopBrains - {{ $t('collab.support') }}
       </p>
     </div>
     <div class="flex items-center">

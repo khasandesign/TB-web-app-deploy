@@ -29,7 +29,7 @@ export default {
   signIn: 'Sign In',
   signUp: 'Sign Up',
   toSignUp: 'Sign Up',
-  signInText: 'Sign in to your TopBreyns account on this device or',
+  signInText: 'Sign in to your TopBrains account on this device or',
   signInPasswordPalceholder: 'Password...',
   forgotPassword: 'Forgot your password?',
   rememberMe: 'Remember me',
@@ -76,7 +76,7 @@ export default {
   },
   collab: {
     support: 'support',
-    partnership: 'Partnership of TopBreyns',
+    partnership: 'Partnership of TopBrains',
     withYou: 'with professionals, like you!',
     mainPicCaption: 'Beginning of partnership with Alisher Isaev.',
     firstBand:
@@ -92,7 +92,7 @@ export default {
     thirdBandRequirements3: 'Cooperation with well-known companies',
     fourthBandHeader: 'How do we make videos',
     fourthBand:
-      'The TopBreyns production team focuses on the highest quality video shooting, editing and structuring the course, we will require your experience and knowledge of your field from you and together we will make a course plan, after which we will write it down and our specialists will create a finished product. You will be able to preview the course and confirm its readiness.',
+      'The TopBrains production team focuses on the highest quality video shooting, editing and structuring the course, we will require your experience and knowledge of your field from you and together we will make a course plan, after which we will write it down and our specialists will create a finished product. You will be able to preview the course and confirm its readiness.',
     photoCaption: 'Photos from the filming of the course.',
     photoCaption2: 'Videos from the filming of the course.',
     fourthBandEnding:
@@ -102,7 +102,7 @@ export default {
       'The course itself is also a strong source of image building and audience gathering for you as a professional in your field. Regarding the profit from the course, you will receive 50% of all future sales under the contract, for more details please contact us via',
     sixthBandHeader: 'What professions do we need',
     sixthBand:
-      'Since TopBreyns works not only with its audience, but also with yours or your potential, we will accept the widest range of professions, ranging from the most common and narrowest, ending even with masters of doing business and other areas.',
+      'Since TopBrains works not only with its audience, but also with yours or your potential, we will accept the widest range of professions, ranging from the most common and narrowest, ending even with masters of doing business and other areas.',
     submit: 'Submit an application',
     submitInfo:
       'You can send an application right here, through the form below, and also under the form you will find a button leading you directly to the telegram chat with our managers.',
@@ -187,7 +187,7 @@ export default {
   createAccount: 'Create account',
   register: {
     continue: 'Continue',
-    firstText: 'Create a new TopBreyns account',
+    firstText: 'Create a new TopBrains account',
     secondText: 'into an already existing account',
     signIn: 'Sign In',
     allow: 'By registering, you agree to our',
@@ -212,8 +212,8 @@ export default {
   faq: {
     title: 'Frequently asked questions',
     what: {
-      que: 'What is TopBreyns?',
-      ans: 'TopBreyns is an online learning platform with courses from some of the best experts in their field. TopBreyns shoots the courses itself and has its own editing team, so we guarantee you a high level of video lessons and a pleasant and gradual learning process from our mentors.',
+      que: 'What is TopBrains?',
+      ans: 'TopBrains is an online learning platform with courses from some of the best experts in their field. TopBrains shoots the courses itself and has its own editing team, so we guarantee you a high level of video lessons and a pleasant and gradual learning process from our mentors.',
     },
     whatYouGet: {
       que: 'What do you get when you buy the course?',
@@ -241,7 +241,7 @@ export default {
     },
     teacherKind: {
       que: 'How people work as teacher?',
-      ans: 'In TopBreyns very good people work as teacher',
+      ans: 'In TopBrains very good people work as teacher',
     },
     aboutPlatform: 'About platform',
     aboutCourse: 'About courses',
@@ -286,7 +286,7 @@ export default {
   lessons: 'Lessons',
   courses: 'Courses',
   coursesDescription:
-    'TopBreyns shoots courses from many more professionals that you will be interested in',
+    'TopBrains shoots courses from many more professionals that you will be interested in',
   articles: 'Articles',
   unAuthFooterDesc: 'News, anons and discounts in our telegram channel',
   course: {
@@ -322,7 +322,7 @@ export default {
     get: 'Get certificate',
     certificateFor: 'Certificate for completing the {author} course',
     certificateGiven:
-      'The certificate was issued by TopBreyns LLC {date} and is valid without time restrictions.',
+      'The certificate was issued by TopBrains LLC {date} and is valid without time restrictions.',
     download: 'Download certificate',
     orderPhysicalVersion: 'Order physical version',
   },
@@ -331,7 +331,7 @@ export default {
     logout: 'Logout',
   },
   congrat: 'congratulations!',
-  finishCourse: "You're full finished course of TopBreyns",
+  finishCourse: "You're full finished course of TopBrains",
   pageNotFoundTitle: '404 - page not found',
   pageNotFoundDesc: 'Try searching or go to {link}',
   internalServerError: 'Unexpected error occurred, please try again later.',

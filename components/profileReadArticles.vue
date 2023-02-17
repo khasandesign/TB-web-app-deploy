@@ -41,7 +41,7 @@
             <img
               :src="item.image"
               class="rounded-md w-[68px] h-[68px] md:w-[196px] md:h-[156px]"
-              alt="top-breyns-article-recommend-image"
+              alt="top-brains-article-recommend-image"
             />
           </div>
         </div>
@@ -76,7 +76,7 @@
           <img
             :src="item.image"
             class="rounded-md w-[68px] h-[68px] md:w-[196px] md:h-[156px]"
-            alt="top-breyns-article-recommend-image"
+            alt="top-brains-article-recommend-image"
           />
         </div>
       </div>
