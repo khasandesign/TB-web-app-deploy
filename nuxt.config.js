@@ -200,4 +200,8 @@ export default {
       },
     },
   },
+  generate: {
+    subFolders: false
+  },
+  buildDir: 'nuxt-dist'
 }

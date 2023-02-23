@@ -1,0 +1,530 @@
+[
+  {
+    "name": "articles___uz",
+    "path": "/articles",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/articles/index.vue",
+    "chunkName": "pages/articles/index",
+    "_name": "_13142a8d"
+  },
+  {
+    "name": "collaboration___uz",
+    "path": "/collaboration",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/collaboration.vue",
+    "chunkName": "pages/collaboration",
+    "_name": "_2ee42648"
+  },
+  {
+    "name": "contacts___uz",
+    "path": "/contacts",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/contacts.vue",
+    "chunkName": "pages/contacts",
+    "_name": "_6b4cf2c0"
+  },
+  {
+    "name": "courseFinish___uz",
+    "path": "/courseFinish",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courseFinish.vue",
+    "chunkName": "pages/courseFinish",
+    "_name": "_0e4cf24a"
+  },
+  {
+    "name": "index___en",
+    "path": "/en",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_75193d56"
+  },
+  {
+    "name": "faq___uz",
+    "path": "/faq",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/faq.vue",
+    "chunkName": "pages/faq",
+    "_name": "_54ffc059"
+  },
+  {
+    "name": "privacy___uz",
+    "path": "/privacy",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_7e9d024b"
+  },
+  {
+    "name": "profile___uz",
+    "path": "/profile",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_2f986fec"
+  },
+  {
+    "name": "index___ru",
+    "path": "/ru",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_75193d56"
+  },
+  {
+    "name": "search___uz",
+    "path": "/search",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/search.vue",
+    "chunkName": "pages/search",
+    "_name": "_d690ba96"
+  },
+  {
+    "name": "terms___uz",
+    "path": "/terms",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/terms.vue",
+    "chunkName": "pages/terms",
+    "_name": "_6f711f8a"
+  },
+  {
+    "name": "test___uz",
+    "path": "/test",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/test.vue",
+    "chunkName": "pages/test",
+    "_name": "_57f5d442"
+  },
+  {
+    "path": "/auth/reset-password",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password.vue",
+    "chunkName": "pages/auth/reset-password",
+    "children": [
+      {
+        "name": "auth-reset-password___uz",
+        "path": "",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/index.vue",
+        "chunkName": "pages/auth/reset-password/index",
+        "_name": "_39d0f9b4"
+      },
+      {
+        "name": "auth-reset-password-new-password___uz",
+        "path": "new-password",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/new-password.vue",
+        "chunkName": "pages/auth/reset-password/new-password",
+        "_name": "_a67d4af8"
+      },
+      {
+        "name": "auth-reset-password-verify___uz",
+        "path": "verify",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/verify.vue",
+        "chunkName": "pages/auth/reset-password/verify",
+        "_name": "_185e0d55"
+      }
+    ],
+    "_name": "_6fe1f2e3"
+  },
+  {
+    "name": "auth-sign-in___uz",
+    "path": "/auth/sign-in",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-in.vue",
+    "chunkName": "pages/auth/sign-in",
+    "_name": "_040037ca"
+  },
+  {
+    "name": "auth-sign-up___uz",
+    "path": "/auth/sign-up",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/index.vue",
+    "chunkName": "pages/auth/sign-up/index",
+    "_name": "_7db6d054"
+  },
+  {
+    "name": "articles___en",
+    "path": "/en/articles",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/articles/index.vue",
+    "chunkName": "pages/articles/index",
+    "_name": "_13142a8d"
+  },
+  {
+    "name": "collaboration___en",
+    "path": "/en/collaboration",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/collaboration.vue",
+    "chunkName": "pages/collaboration",
+    "_name": "_2ee42648"
+  },
+  {
+    "name": "contacts___en",
+    "path": "/en/contacts",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/contacts.vue",
+    "chunkName": "pages/contacts",
+    "_name": "_6b4cf2c0"
+  },
+  {
+    "name": "courseFinish___en",
+    "path": "/en/courseFinish",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courseFinish.vue",
+    "chunkName": "pages/courseFinish",
+    "_name": "_0e4cf24a"
+  },
+  {
+    "name": "faq___en",
+    "path": "/en/faq",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/faq.vue",
+    "chunkName": "pages/faq",
+    "_name": "_54ffc059"
+  },
+  {
+    "name": "privacy___en",
+    "path": "/en/privacy",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_7e9d024b"
+  },
+  {
+    "name": "profile___en",
+    "path": "/en/profile",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_2f986fec"
+  },
+  {
+    "name": "search___en",
+    "path": "/en/search",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/search.vue",
+    "chunkName": "pages/search",
+    "_name": "_d690ba96"
+  },
+  {
+    "name": "terms___en",
+    "path": "/en/terms",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/terms.vue",
+    "chunkName": "pages/terms",
+    "_name": "_6f711f8a"
+  },
+  {
+    "name": "test___en",
+    "path": "/en/test",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/test.vue",
+    "chunkName": "pages/test",
+    "_name": "_57f5d442"
+  },
+  {
+    "name": "articles___ru",
+    "path": "/ru/articles",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/articles/index.vue",
+    "chunkName": "pages/articles/index",
+    "_name": "_13142a8d"
+  },
+  {
+    "name": "collaboration___ru",
+    "path": "/ru/collaboration",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/collaboration.vue",
+    "chunkName": "pages/collaboration",
+    "_name": "_2ee42648"
+  },
+  {
+    "name": "contacts___ru",
+    "path": "/ru/contacts",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/contacts.vue",
+    "chunkName": "pages/contacts",
+    "_name": "_6b4cf2c0"
+  },
+  {
+    "name": "courseFinish___ru",
+    "path": "/ru/courseFinish",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courseFinish.vue",
+    "chunkName": "pages/courseFinish",
+    "_name": "_0e4cf24a"
+  },
+  {
+    "name": "faq___ru",
+    "path": "/ru/faq",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/faq.vue",
+    "chunkName": "pages/faq",
+    "_name": "_54ffc059"
+  },
+  {
+    "name": "privacy___ru",
+    "path": "/ru/privacy",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_7e9d024b"
+  },
+  {
+    "name": "profile___ru",
+    "path": "/ru/profile",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_2f986fec"
+  },
+  {
+    "name": "search___ru",
+    "path": "/ru/search",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/search.vue",
+    "chunkName": "pages/search",
+    "_name": "_d690ba96"
+  },
+  {
+    "name": "terms___ru",
+    "path": "/ru/terms",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/terms.vue",
+    "chunkName": "pages/terms",
+    "_name": "_6f711f8a"
+  },
+  {
+    "name": "test___ru",
+    "path": "/ru/test",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/test.vue",
+    "chunkName": "pages/test",
+    "_name": "_57f5d442"
+  },
+  {
+    "name": "auth-sign-up-finish___uz",
+    "path": "/auth/sign-up/finish",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/finish.vue",
+    "chunkName": "pages/auth/sign-up/finish",
+    "_name": "_53ddcd01"
+  },
+  {
+    "name": "auth-sign-up-verify___uz",
+    "path": "/auth/sign-up/verify",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/verify.vue",
+    "chunkName": "pages/auth/sign-up/verify",
+    "_name": "_5caf3432"
+  },
+  {
+    "path": "/en/auth/reset-password",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password.vue",
+    "chunkName": "pages/auth/reset-password",
+    "children": [
+      {
+        "name": "auth-reset-password___en",
+        "path": "",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/index.vue",
+        "chunkName": "pages/auth/reset-password/index",
+        "_name": "_39d0f9b4"
+      },
+      {
+        "name": "auth-reset-password-new-password___en",
+        "path": "new-password",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/new-password.vue",
+        "chunkName": "pages/auth/reset-password/new-password",
+        "_name": "_a67d4af8"
+      },
+      {
+        "name": "auth-reset-password-verify___en",
+        "path": "verify",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/verify.vue",
+        "chunkName": "pages/auth/reset-password/verify",
+        "_name": "_185e0d55"
+      }
+    ],
+    "_name": "_6fe1f2e3"
+  },
+  {
+    "name": "auth-sign-in___en",
+    "path": "/en/auth/sign-in",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-in.vue",
+    "chunkName": "pages/auth/sign-in",
+    "_name": "_040037ca"
+  },
+  {
+    "name": "auth-sign-up___en",
+    "path": "/en/auth/sign-up",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/index.vue",
+    "chunkName": "pages/auth/sign-up/index",
+    "_name": "_7db6d054"
+  },
+  {
+    "path": "/ru/auth/reset-password",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password.vue",
+    "chunkName": "pages/auth/reset-password",
+    "children": [
+      {
+        "name": "auth-reset-password___ru",
+        "path": "",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/index.vue",
+        "chunkName": "pages/auth/reset-password/index",
+        "_name": "_39d0f9b4"
+      },
+      {
+        "name": "auth-reset-password-new-password___ru",
+        "path": "new-password",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/new-password.vue",
+        "chunkName": "pages/auth/reset-password/new-password",
+        "_name": "_a67d4af8"
+      },
+      {
+        "name": "auth-reset-password-verify___ru",
+        "path": "verify",
+        "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/reset-password/verify.vue",
+        "chunkName": "pages/auth/reset-password/verify",
+        "_name": "_185e0d55"
+      }
+    ],
+    "_name": "_6fe1f2e3"
+  },
+  {
+    "name": "auth-sign-in___ru",
+    "path": "/ru/auth/sign-in",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-in.vue",
+    "chunkName": "pages/auth/sign-in",
+    "_name": "_040037ca"
+  },
+  {
+    "name": "auth-sign-up___ru",
+    "path": "/ru/auth/sign-up",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/index.vue",
+    "chunkName": "pages/auth/sign-up/index",
+    "_name": "_7db6d054"
+  },
+  {
+    "name": "auth-sign-up-finish___en",
+    "path": "/en/auth/sign-up/finish",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/finish.vue",
+    "chunkName": "pages/auth/sign-up/finish",
+    "_name": "_53ddcd01"
+  },
+  {
+    "name": "auth-sign-up-verify___en",
+    "path": "/en/auth/sign-up/verify",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/verify.vue",
+    "chunkName": "pages/auth/sign-up/verify",
+    "_name": "_5caf3432"
+  },
+  {
+    "name": "auth-sign-up-finish___ru",
+    "path": "/ru/auth/sign-up/finish",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/finish.vue",
+    "chunkName": "pages/auth/sign-up/finish",
+    "_name": "_53ddcd01"
+  },
+  {
+    "name": "auth-sign-up-verify___ru",
+    "path": "/ru/auth/sign-up/verify",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/auth/sign-up/verify.vue",
+    "chunkName": "pages/auth/sign-up/verify",
+    "_name": "_5caf3432"
+  },
+  {
+    "name": "articles-id___en",
+    "path": "/en/articles/:id",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/articles/_id.vue",
+    "chunkName": "pages/articles/_id",
+    "_name": "_42d56c35"
+  },
+  {
+    "name": "certificates-certificateId___en",
+    "path": "/en/certificates/:certificateId?",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/certificates/_certificateId.vue",
+    "chunkName": "pages/certificates/_certificateId",
+    "_name": "_350f7fee"
+  },
+  {
+    "name": "courses-courseId___en",
+    "path": "/en/courses/:courseId",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/index.vue",
+    "chunkName": "pages/courses/_courseId/index",
+    "_name": "_5850a624"
+  },
+  {
+    "name": "articles-id___ru",
+    "path": "/ru/articles/:id",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/articles/_id.vue",
+    "chunkName": "pages/articles/_id",
+    "_name": "_42d56c35"
+  },
+  {
+    "name": "certificates-certificateId___ru",
+    "path": "/ru/certificates/:certificateId?",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/certificates/_certificateId.vue",
+    "chunkName": "pages/certificates/_certificateId",
+    "_name": "_350f7fee"
+  },
+  {
+    "name": "courses-courseId___ru",
+    "path": "/ru/courses/:courseId",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/index.vue",
+    "chunkName": "pages/courses/_courseId/index",
+    "_name": "_5850a624"
+  },
+  {
+    "name": "courses-courseId-certificate___en",
+    "path": "/en/courses/:courseId?/certificate",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/certificate.vue",
+    "chunkName": "pages/courses/_courseId/certificate",
+    "_name": "_39ccbe2e"
+  },
+  {
+    "name": "courses-courseId-purchase___en",
+    "path": "/en/courses/:courseId?/purchase",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/purchase/index.vue",
+    "chunkName": "pages/courses/_courseId/purchase/index",
+    "_name": "_7b706c62"
+  },
+  {
+    "name": "courses-courseId-certificate___ru",
+    "path": "/ru/courses/:courseId?/certificate",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/certificate.vue",
+    "chunkName": "pages/courses/_courseId/certificate",
+    "_name": "_39ccbe2e"
+  },
+  {
+    "name": "courses-courseId-purchase___ru",
+    "path": "/ru/courses/:courseId?/purchase",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/purchase/index.vue",
+    "chunkName": "pages/courses/_courseId/purchase/index",
+    "_name": "_7b706c62"
+  },
+  {
+    "name": "courses-courseId-lessons-lessonId___en",
+    "path": "/en/courses/:courseId?/lessons/:lessonId?",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/lessons/_lessonId.vue",
+    "chunkName": "pages/courses/_courseId/lessons/_lessonId",
+    "_name": "_72dbab50"
+  },
+  {
+    "name": "courses-courseId-lessons-lessonId___ru",
+    "path": "/ru/courses/:courseId?/lessons/:lessonId?",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/lessons/_lessonId.vue",
+    "chunkName": "pages/courses/_courseId/lessons/_lessonId",
+    "_name": "_72dbab50"
+  },
+  {
+    "name": "articles-id___uz",
+    "path": "/articles/:id",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/articles/_id.vue",
+    "chunkName": "pages/articles/_id",
+    "_name": "_42d56c35"
+  },
+  {
+    "name": "certificates-certificateId___uz",
+    "path": "/certificates/:certificateId?",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/certificates/_certificateId.vue",
+    "chunkName": "pages/certificates/_certificateId",
+    "_name": "_350f7fee"
+  },
+  {
+    "name": "courses-courseId___uz",
+    "path": "/courses/:courseId",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/index.vue",
+    "chunkName": "pages/courses/_courseId/index",
+    "_name": "_5850a624"
+  },
+  {
+    "name": "courses-courseId-certificate___uz",
+    "path": "/courses/:courseId?/certificate",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/certificate.vue",
+    "chunkName": "pages/courses/_courseId/certificate",
+    "_name": "_39ccbe2e"
+  },
+  {
+    "name": "courses-courseId-purchase___uz",
+    "path": "/courses/:courseId?/purchase",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/purchase/index.vue",
+    "chunkName": "pages/courses/_courseId/purchase/index",
+    "_name": "_7b706c62"
+  },
+  {
+    "name": "courses-courseId-lessons-lessonId___uz",
+    "path": "/courses/:courseId?/lessons/:lessonId?",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/courses/_courseId/lessons/_lessonId.vue",
+    "chunkName": "pages/courses/_courseId/lessons/_lessonId",
+    "_name": "_72dbab50"
+  },
+  {
+    "name": "index___uz",
+    "path": "/",
+    "component": "/Users/uralrashidov/Documents/my_projects/TopBreynsCompnay/TB-web-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_75193d56"
+  }
+]

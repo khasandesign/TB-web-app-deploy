@@ -1,0 +1,278 @@
+{
+  "AppFooter": {
+    "description": "Auto imported from components/AppFooter.vue"
+  },
+  "ArticleCard": {
+    "description": "Auto imported from components/ArticleCard.vue"
+  },
+  "ArticleInfo": {
+    "description": "Auto imported from components/ArticleInfo.vue"
+  },
+  "BaseAccordion": {
+    "description": "Auto imported from components/BaseAccordion.vue"
+  },
+  "BaseAccordionItem": {
+    "description": "Auto imported from components/BaseAccordionItem.vue"
+  },
+  "BaseAlert": {
+    "description": "Auto imported from components/BaseAlert.vue"
+  },
+  "BaseBadge": {
+    "description": "Auto imported from components/BaseBadge.vue"
+  },
+  "BaseBottomSheet": {
+    "description": "Auto imported from components/BaseBottomSheet.vue"
+  },
+  "BaseBreadcrumb": {
+    "description": "Auto imported from components/BaseBreadcrumb.vue"
+  },
+  "BaseBreadcrumbItem": {
+    "description": "Auto imported from components/BaseBreadcrumbItem.vue"
+  },
+  "BaseButton": {
+    "description": "Auto imported from components/BaseButton.vue"
+  },
+  "BaseChat": {
+    "description": "Auto imported from components/BaseChat.vue"
+  },
+  "BaseCheckbox": {
+    "description": "Auto imported from components/BaseCheckbox.vue"
+  },
+  "BaseCommentItem": {
+    "description": "Auto imported from components/BaseCommentItem.vue"
+  },
+  "BaseComments": {
+    "description": "Auto imported from components/BaseComments.vue"
+  },
+  "BaseDropdown": {
+    "description": "Auto imported from components/BaseDropdown.vue"
+  },
+  "BaseDropdownItem": {
+    "description": "Auto imported from components/BaseDropdownItem.vue"
+  },
+  "BaseEditMenu": {
+    "description": "Auto imported from components/BaseEditMenu.vue"
+  },
+  "BaseForm": {
+    "description": "Auto imported from components/BaseForm.vue"
+  },
+  "BaseIcon": {
+    "description": "Auto imported from components/BaseIcon.vue"
+  },
+  "BaseInput": {
+    "description": "Auto imported from components/BaseInput.vue"
+  },
+  "BaseInputTel": {
+    "description": "Auto imported from components/BaseInputTel.vue"
+  },
+  "BaseLink": {
+    "description": "Auto imported from components/BaseLink.vue"
+  },
+  "BaseListGroup": {
+    "description": "Auto imported from components/BaseListGroup.vue"
+  },
+  "BaseListGroupItem": {
+    "description": "Auto imported from components/BaseListGroupItem.vue"
+  },
+  "BaseModal": {
+    "description": "Auto imported from components/BaseModal.vue"
+  },
+  "BasePagination": {
+    "description": "Auto imported from components/BasePagination.vue"
+  },
+  "BasePasswordInput": {
+    "description": "Auto imported from components/BasePasswordInput.vue"
+  },
+  "BasePopover": {
+    "description": "Auto imported from components/BasePopover.vue"
+  },
+  "BaseSelect": {
+    "description": "Auto imported from components/BaseSelect.vue"
+  },
+  "BaseSpinner": {
+    "description": "Auto imported from components/BaseSpinner.vue"
+  },
+  "BaseTab": {
+    "description": "Auto imported from components/BaseTab.vue"
+  },
+  "BaseTabItem": {
+    "description": "Auto imported from components/BaseTabItem.vue"
+  },
+  "BaseTextarea": {
+    "description": "Auto imported from components/BaseTextarea.vue"
+  },
+  "BaseTransitionSlide": {
+    "description": "Auto imported from components/BaseTransitionSlide.vue"
+  },
+  "BlogItem": {
+    "description": "Auto imported from components/BlogItem.vue"
+  },
+  "CourseCard": {
+    "description": "Auto imported from components/CourseCard.vue"
+  },
+  "CourseContinueCard": {
+    "description": "Auto imported from components/CourseContinueCard.vue"
+  },
+  "CourseInfo": {
+    "description": "Auto imported from components/CourseInfo.vue"
+  },
+  "CourseLessonCard": {
+    "description": "Auto imported from components/CourseLessonCard.vue"
+  },
+  "CourseLessonMobileNav": {
+    "description": "Auto imported from components/CourseLessonMobileNav.vue"
+  },
+  "CoursePrice": {
+    "description": "Auto imported from components/CoursePrice.vue"
+  },
+  "CourseProgram": {
+    "description": "Auto imported from components/CourseProgram.vue"
+  },
+  "CourseShareModal": {
+    "description": "Auto imported from components/CourseShareModal.vue"
+  },
+  "CourseStudentInfo": {
+    "description": "Auto imported from components/CourseStudentInfo.vue"
+  },
+  "FeedbacksSlider": {
+    "description": "Auto imported from components/FeedbacksSlider.vue"
+  },
+  "HamburgerBtn": {
+    "description": "Auto imported from components/HamburgerBtn.vue"
+  },
+  "InfoFooter": {
+    "description": "Auto imported from components/InfoFooter.vue"
+  },
+  "LessonComments": {
+    "description": "Auto imported from components/LessonComments.vue"
+  },
+  "LessonList": {
+    "description": "Auto imported from components/LessonList.vue"
+  },
+  "MobileHeader": {
+    "description": "Auto imported from components/MobileHeader.vue"
+  },
+  "PaymentPageBuilder": {
+    "description": "Auto imported from components/PaymentPageBuilder.vue"
+  },
+  "PaymentPageBuilderItem": {
+    "description": "Auto imported from components/PaymentPageBuilderItem.vue"
+  },
+  "PaymentPageCardInput": {
+    "description": "Auto imported from components/PaymentPageCardInput.vue"
+  },
+  "PaymentPageCardList": {
+    "description": "Auto imported from components/PaymentPageCardList.vue"
+  },
+  "ShareModal": {
+    "description": "Auto imported from components/ShareModal.vue"
+  },
+  "ProfileCertificates": {
+    "description": "Auto imported from components/profileCertificates.vue"
+  },
+  "ProfileCourseItem": {
+    "description": "Auto imported from components/profileCourseItem.vue"
+  },
+  "ProfileCourses": {
+    "description": "Auto imported from components/profileCourses.vue"
+  },
+  "ProfileReadArticles": {
+    "description": "Auto imported from components/profileReadArticles.vue"
+  },
+  "ProfileSavedLessons": {
+    "description": "Auto imported from components/profileSavedLessons.vue"
+  },
+  "HomePageFAQcomponent": {
+    "description": "Auto imported from components/HomePage/FAQcomponent.vue"
+  },
+  "HomePageFeedback": {
+    "description": "Auto imported from components/HomePage/Feedback.vue"
+  },
+  "HomePageFormSection": {
+    "description": "Auto imported from components/HomePage/Form-section.vue"
+  },
+  "HomeOurCourse": {
+    "description": "Auto imported from components/HomePage/HomeOurCourse.vue"
+  },
+  "CourseCertificateAddressInput": {
+    "description": "Auto imported from components/course/CertificateAddressInput.vue"
+  },
+  "CourseCertificateFormElectron": {
+    "description": "Auto imported from components/course/CertificateFormElectron.vue"
+  },
+  "CourseCertificateFormPhysical": {
+    "description": "Auto imported from components/course/CertificateFormPhysical.vue"
+  },
+  "CourseCertificateNameInput": {
+    "description": "Auto imported from components/course/CertificateNameInput.vue"
+  },
+  "CourseDemoHeader": {
+    "description": "Auto imported from components/course/CourseDemoHeader.vue"
+  },
+  "CourseFinishedNotification": {
+    "description": "Auto imported from components/course/CourseFinishedNotification.vue"
+  },
+  "CourseVideo": {
+    "description": "Auto imported from components/course/CourseVideo.vue"
+  },
+  "CourseVideoShare": {
+    "description": "Auto imported from components/course/CourseVideoShare.vue"
+  },
+  "AuthSendCodeProvider": {
+    "description": "Auto imported from components/auth/AuthSendCodeProvider.vue"
+  },
+  "AuthSocialButtons": {
+    "description": "Auto imported from components/auth/AuthSocialButtons.vue"
+  },
+  "AuthCircularLoading": {
+    "description": "Auto imported from components/auth/CircularLoading.vue"
+  },
+  "AuthCodeResend": {
+    "description": "Auto imported from components/auth/CodeResend.vue"
+  },
+  "AuthResetPasswordBreadcrumbs": {
+    "description": "Auto imported from components/auth/ResetPasswordBreadcrumbs.vue"
+  },
+  "IconsIconFacebook": {
+    "description": "Auto imported from components/icons/IconFacebook.vue"
+  },
+  "IconsIconInstagram": {
+    "description": "Auto imported from components/icons/IconInstagram.vue"
+  },
+  "IconsIconTelegram": {
+    "description": "Auto imported from components/icons/IconTelegram.vue"
+  },
+  "IconsIconWhatsapp": {
+    "description": "Auto imported from components/icons/IconWhatsapp.vue"
+  },
+  "LessonCard": {
+    "description": "Auto imported from components/lesson/LessonCard.vue"
+  },
+  "ProfileTeacher": {
+    "description": "Auto imported from components/profile/ProfileTeacher.vue"
+  },
+  "ProfileTeacherStudents": {
+    "description": "Auto imported from components/profile/TeacherStudents.vue"
+  },
+  "LayoutAppHeader": {
+    "description": "Auto imported from components/layout/AppHeader.vue"
+  },
+  "LayoutAppHeaderSearch": {
+    "description": "Auto imported from components/layout/AppHeaderSearch.vue"
+  },
+  "LayoutCoursePageHeader": {
+    "description": "Auto imported from components/layout/CoursePageHeader.vue"
+  },
+  "LayoutLangSwitcher": {
+    "description": "Auto imported from components/layout/LangSwitcher.vue"
+  },
+  "LayoutMobileMenu": {
+    "description": "Auto imported from components/layout/MobileMenu.vue"
+  },
+  "LayoutUserBoughtCourses": {
+    "description": "Auto imported from components/layout/UserBoughtCourses.vue"
+  },
+  "LayoutUserDropdown": {
+    "description": "Auto imported from components/layout/UserDropdown.vue"
+  }
+}
