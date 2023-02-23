@@ -114,16 +114,16 @@
 export default {
   name: 'CertificatePage',
   middleware: 'auth',
-  async asyncData({ $axios, params, store }) {
-    try {
-      const { data: certificate } = await $axios.get(
-        `certificates/${params.certificateId}`
-      )
-      certificate.url = `${store.state.ui.domain}/certificates/${certificate.id}`
+  // async asyncData({ $axios, params, store }) {
+  //   try {
+  //     const { data: certificate } = await $axios.get(
+  //       `certificates/${params.certificateId}`
+  //     )
+  //     certificate.url = `${store.state.ui.domain}/certificates/${certificate.id}`
 
-      return { certificate }
-    } catch (err) {}
-  },
+  //     return { certificate }
+  //   } catch (err) {}
+  // },
   data() {
     return {
       certificate: null,

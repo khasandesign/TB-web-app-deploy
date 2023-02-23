@@ -8,10 +8,10 @@
 export default {
   name: 'CoursePurchasePage',
   layout: 'empty',
-  async asyncData({ $axios, params }) {
-    const { data: course } = await $axios.get(`courses/${params.courseId}`)
-    return { course }
-  },
+  // async asyncData({ $axios, params }) {
+  //   const { data: course } = await $axios.get(`courses/${params.courseId}`)
+  //   return { course }
+  // },
   data() {
     return {
       course: undefined,

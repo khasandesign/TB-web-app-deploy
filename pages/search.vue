@@ -45,13 +45,13 @@ import LessonCard from '~/components/lesson/LessonCard.vue'
 export default {
   name: 'SearchPage',
   components: { LessonCard },
-  async asyncData({ $axios, query }) {
-    if (!query.text) {
-      return {}
-    }
-    const { data } = await $axios.get('search', { params: { q: query.text } })
-    return { results: data }
-  },
+  // async asyncData({ $axios, query }) {
+  //   if (!query.text) {
+  //     return {}
+  //   }
+  //   const { data } = await $axios.get('search', { params: { q: query.text } })
+  //   return { results: data }
+  // },
   data() {
     return {
       results: {

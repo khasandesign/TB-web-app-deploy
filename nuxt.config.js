@@ -2,6 +2,7 @@ import { themes } from '@storybook/theming'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'server',
   debug: true,
   head: {
     titleTemplate: 'TopBrains -  %s',
@@ -61,6 +62,7 @@ export default {
     { src: '@/plugins/vue-slick-carousel' },
     { src: '@/plugins/vee-validate.js' },
     { src: '~/plugins/vue-confetti.js', mode: 'client' },
+    '~/plugins/axios',
   ],
 
   serverMiddleware: ['~/mocks/index.js'],
@@ -87,6 +89,7 @@ export default {
     '@nuxtjs/auth-next',
     '@nuxtjs/dayjs',
     '@nuxtjs/toast',
+    'cookie-universal-nuxt',
   ],
 
   toast: {
@@ -159,15 +162,6 @@ export default {
     langDir: 'lang/',
     strategy: 'prefix_except_default',
     defaultLocale: 'uz',
-  },
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL:
-      process.env.NODE_ENV === 'production'
-        ? 'https://test.topbrains.uz/api'
-        : 'http://localhost:3000/api',
   },
 
   dayjs: {

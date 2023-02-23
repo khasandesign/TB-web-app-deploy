@@ -246,43 +246,43 @@ export default {
   name: 'CourseDemoPage',
   components: { CourseDemoHeader, BaseBottomSheet },
   layout: 'empty',
-  async asyncData({ app, $axios, params, query, store }) {
-    if (app.$loading) {
-      app.$loading.start()
-    }
-    const courseRepository = getCourseRepository($axios)
-    const articleRepository = getArticleRepository($axios)
-    const lessonRepository = getLessonRepository($axios)
+  // async asyncData({ app, $axios, params, query, store }) {
+  //   if (app.$loading) {
+  //     app.$loading.start()
+  //   }
+  //   const courseRepository = getCourseRepository($axios)
+  //   const articleRepository = getArticleRepository($axios)
+  //   const lessonRepository = getLessonRepository($axios)
 
-    const chapters = await courseRepository.getChapters(params.courseId)
-    const articles = await articleRepository.getList({ limit: 2 })
+  //   const chapters = await courseRepository.getChapters(params.courseId)
+  //   const articles = await articleRepository.getList({ limit: 2 })
 
-    const response = await $axios.get(COURSES.LIST.url, { progress: false })
-    const courses = morphism(COURSES.LIST.schema, response.data.courses)
+  //   const response = await $axios.get(COURSES.LIST.url, { progress: false })
+  //   const courses = morphism(COURSES.LIST.schema, response.data.courses)
 
-    const course = await courseRepository.getCourse(params.courseId)
-    const lesson = await lessonRepository.get(params.lessonId)
+  //   const course = await courseRepository.getCourse(params.courseId)
+  //   const lesson = await lessonRepository.get(params.lessonId)
 
-    const { page = 1, limit = 12 } = query
-    const comments = await lessonRepository.getComments(
-      params.lessonId,
-      page,
-      limit
-    )
+  //   const { page = 1, limit = 12 } = query
+  //   const comments = await lessonRepository.getComments(
+  //     params.lessonId,
+  //     page,
+  //     limit
+  //   )
 
-    if (app.$loading) {
-      app.$loading.stop()
-    }
+  //   if (app.$loading) {
+  //     app.$loading.stop()
+  //   }
 
-    return {
-      chapters,
-      articles,
-      courses,
-      course,
-      lesson,
-      comments,
-    }
-  },
+  //   return {
+  //     chapters,
+  //     articles,
+  //     courses,
+  //     course,
+  //     lesson,
+  //     comments,
+  //   }
+  // },
   data() {
     return {
       showLessonListSheet: false,

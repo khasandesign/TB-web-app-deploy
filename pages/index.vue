@@ -1,10 +1,10 @@
 <template>
   <div>
     <div
-      v-if="courses.length > 0"
+      v-if="courses.items.courses ? courses.items.courses.length > 0 : 0"
       class="relative top-0 left-0 w-full h-screen"
     >
-      <CourseVideo class="w-full h-full" :course="courses[0]" />
+      <CourseVideo class="w-full h-full" :course="courses.items.courses[0]" />
     </div>
     <div
       class="bg-bg-primary sticky z-20 top-0 left-0 text-label-primary-dark w-full"
@@ -16,11 +16,11 @@
         class="mb-[40px] md:mb-[150px]"
         :courses="$auth.loggedIn ? $auth.user.courses : undefined"
       />
-      <HomeOurCourse v-if="courses.length > 0" :courses="courses" />
+      <HomeOurCourse v-if="courses.items.courses ? courses.items.courses.length > 0 : 0" :courses="courses.items.courses" />
       <Feedback
-        v-if="feedbacks.length > 0"
+        v-if="feedbacks.items.feedback ? feedbacks.items.feedback.length > 0 : 0"
         class="mb-[40px] md:mb-[80px]"
-        :feedbacks="feedbacks"
+        :feedbacks="feedbacks.items.feedback"
       />
       <section class="container">
         <div class="content">
@@ -33,9 +33,7 @@
 </template>
 
 <script>
-import { morphism } from 'morphism'
-import { COURSES } from '@/api/courses'
-import { FEEDBACK } from '@/api/feedback'
+
 import AppHeader from '@/components/layout/AppHeader.vue'
 import Feedback from '@/components/HomePage/Feedback.vue'
 import FAQ from '@/components/HomePage/FAQcomponent.vue'
@@ -54,24 +52,8 @@ export default {
     CourseVideo,
   },
   layout: 'empty',
-  async asyncData({ $axios }) {
-    const response = await $axios.get(COURSES.LIST.url)
-    const courses = response.data.courses
-
-    const {
-      data: { feedback },
-    } = await $axios.get(FEEDBACK.LIST.url)
-    const feedbacks = morphism(FEEDBACK.LIST.schema, feedback)
-
-    return {
-      courses,
-      feedbacks,
-    }
-  },
   data() {
     return {
-      courses: [],
-      feedbacks: [],
       faqs: ['what', 'whatYouGet', 'pay', 'backMoney', 'howToShow', 'whereQue'],
     }
   },
@@ -89,6 +71,43 @@ export default {
         },
       ],
     }
+  },
+  computed: {
+    courses() {
+      return this.$store.getters["entity/getEntity"]("courses", 'all');
+    },
+    feedbacks() {
+      return this.$store.getters["entity/getEntity"]("feedbacks", 'all');
+    },
+  },
+  mounted(){
+    this.$store.dispatch("entity/loadAll", {
+      entity: "courses",
+      name: "all",
+      url: "/courses",
+      params: {
+        limit: 0
+      },
+      cb: {
+        success: response => {
+        },
+        error: () => {}
+      }
+    });
+
+    this.$store.dispatch("entity/loadAll", {
+      entity: "feedbacks",
+      name: "all",
+      url: "/feedback",
+      params: {
+        limit: 0
+      },
+      cb: {
+        success: response => {
+        },
+        error: () => {}
+      }
+    });
   },
 }
 </script>

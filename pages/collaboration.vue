@@ -242,9 +242,9 @@ export default {
       title: this.$t('header.collaboration'),
     }
   },
-  created() {
-    this.getArticle()
-  },
+  // created() {
+  //   this.getArticle()
+  // },
   methods: {
     async getArticle() {
       const response = await this.$axios.get(ARTICLE.LIST.url)

@@ -81,15 +81,15 @@ import { morphism } from 'morphism'
 import { ARTICLE } from '@/api/article'
 export default {
   name: 'AppArticle',
-  async asyncData({ $axios, params }) {
-    const { data } = await $axios[ARTICLE.ITEM.method](
-      `${ARTICLE.ITEM.url}/${params.id}`
-    )
+  // async asyncData({ $axios, params }) {
+  //   const { data } = await $axios[ARTICLE.ITEM.method](
+  //     `${ARTICLE.ITEM.url}/${params.id}`
+  //   )
 
-    const article = morphism(ARTICLE.ITEM.schema, data)
+  //   const article = morphism(ARTICLE.ITEM.schema, data)
 
-    return { data: article }
-  },
+  //   return { data: article }
+  // },
   data() {
     return {
       data: {},

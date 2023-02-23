@@ -86,9 +86,9 @@ const getArticles = async ($axios, query) => {
 
 export default {
   name: 'BlogsPage',
-  asyncData({ $axios, query }) {
-    return getArticles($axios, query)
-  },
+  // asyncData({ $axios, query }) {
+  //   return getArticles($axios, query)
+  // },
   data() {
     return {
       articles: [],

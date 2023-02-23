@@ -82,13 +82,13 @@ export default {
     CertificateFormElectron,
     CertificateFormPhysical,
   },
-  async asyncData({ $axios, params }) {
-    const { data: certificate } = await $axios[GET_CERTIFICATE.method](
-      GET_CERTIFICATE.url(params.courseId)
-    )
+  // async asyncData({ $axios, params }) {
+  //   const { data: certificate } = await $axios[GET_CERTIFICATE.method](
+  //     GET_CERTIFICATE.url(params.courseId)
+  //   )
 
-    return { certificate }
-  },
+  //   return { certificate }
+  // },
   data() {
     return {
       TABS,
