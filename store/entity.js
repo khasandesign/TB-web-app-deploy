@@ -43,7 +43,6 @@ export const actions = {
             entity,
             name
         })
-
         const token = get(rootState, 'auth.profile.access_token')
         const cookieToken = this.$cookies.get("access_token")
 
@@ -52,7 +51,6 @@ export const actions = {
                 Authorization: `Bearer ${cookieToken || token}`,
             }
         } : {}
-
         return this.$axios.$get(queryBuilder(url, params), config).then((response) => {
             commit('LOAD_ALL_SUCCESS', {
                 entity,

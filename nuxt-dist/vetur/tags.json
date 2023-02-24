@@ -218,6 +218,18 @@
   "CourseVideoShare": {
     "description": "Auto imported from components/course/CourseVideoShare.vue"
   },
+  "IconsIconFacebook": {
+    "description": "Auto imported from components/icons/IconFacebook.vue"
+  },
+  "IconsIconInstagram": {
+    "description": "Auto imported from components/icons/IconInstagram.vue"
+  },
+  "IconsIconTelegram": {
+    "description": "Auto imported from components/icons/IconTelegram.vue"
+  },
+  "IconsIconWhatsapp": {
+    "description": "Auto imported from components/icons/IconWhatsapp.vue"
+  },
   "AuthSendCodeProvider": {
     "description": "Auto imported from components/auth/AuthSendCodeProvider.vue"
   },
@@ -232,27 +244,6 @@
   },
   "AuthResetPasswordBreadcrumbs": {
     "description": "Auto imported from components/auth/ResetPasswordBreadcrumbs.vue"
-  },
-  "IconsIconFacebook": {
-    "description": "Auto imported from components/icons/IconFacebook.vue"
-  },
-  "IconsIconInstagram": {
-    "description": "Auto imported from components/icons/IconInstagram.vue"
-  },
-  "IconsIconTelegram": {
-    "description": "Auto imported from components/icons/IconTelegram.vue"
-  },
-  "IconsIconWhatsapp": {
-    "description": "Auto imported from components/icons/IconWhatsapp.vue"
-  },
-  "LessonCard": {
-    "description": "Auto imported from components/lesson/LessonCard.vue"
-  },
-  "ProfileTeacher": {
-    "description": "Auto imported from components/profile/ProfileTeacher.vue"
-  },
-  "ProfileTeacherStudents": {
-    "description": "Auto imported from components/profile/TeacherStudents.vue"
   },
   "LayoutAppHeader": {
     "description": "Auto imported from components/layout/AppHeader.vue"
@@ -274,5 +265,14 @@
   },
   "LayoutUserDropdown": {
     "description": "Auto imported from components/layout/UserDropdown.vue"
+  },
+  "LessonCard": {
+    "description": "Auto imported from components/lesson/LessonCard.vue"
+  },
+  "ProfileTeacher": {
+    "description": "Auto imported from components/profile/ProfileTeacher.vue"
+  },
+  "ProfileTeacherStudents": {
+    "description": "Auto imported from components/profile/TeacherStudents.vue"
   }
 }

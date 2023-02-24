@@ -52,6 +52,7 @@ export default {
     CourseVideo,
   },
   layout: 'empty',
+  
   data() {
     return {
       faqs: ['what', 'whatYouGet', 'pay', 'backMoney', 'howToShow', 'whereQue'],
@@ -80,34 +81,39 @@ export default {
       return this.$store.getters["entity/getEntity"]("feedbacks", 'all');
     },
   },
-  mounted(){
-    this.$store.dispatch("entity/loadAll", {
-      entity: "courses",
-      name: "all",
-      url: "/courses",
-      params: {
-        limit: 0
-      },
-      cb: {
-        success: response => {
-        },
-        error: () => {}
-      }
-    });
-
-    this.$store.dispatch("entity/loadAll", {
-      entity: "feedbacks",
-      name: "all",
-      url: "/feedback",
-      params: {
-        limit: 0
-      },
-      cb: {
-        success: response => {
-        },
-        error: () => {}
-      }
-    });
+  mounted(){ 
+    this.fetchRequst();
   },
+  methods: {
+    async fetchRequst(){
+      await this.$store.dispatch("entity/loadAll", {
+        entity: "courses",
+        name: "all",
+        url: "/courses",
+        params: {
+          limit: 0
+        },
+        cb: {
+          success: response => {
+          },
+          error: () => {}
+        }
+      });
+
+      await this.$store.dispatch("entity/loadAll", {
+        entity: "feedbacks",
+        name: "all",
+        url: "/feedback",
+        params: {
+          limit: 0
+        },
+        cb: {
+          success: response => {
+          },
+          error: () => {}
+        }
+      });
+    }
+  }
 }
 </script>

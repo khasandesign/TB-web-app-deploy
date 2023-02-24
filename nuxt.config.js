@@ -2,7 +2,6 @@ import { themes } from '@storybook/theming'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: 'server',
   debug: true,
   head: {
     titleTemplate: 'TopBrains -  %s',
@@ -91,7 +90,6 @@ export default {
     '@nuxtjs/toast',
     'cookie-universal-nuxt',
   ],
-
   toast: {
     position: 'top-center',
     duration: 2000,

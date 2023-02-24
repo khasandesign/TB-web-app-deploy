@@ -1,4 +1,4 @@
 export default function ({ $axios }) {
-    $axios.setBaseURL('api');
-  }
-  
+    $axios.setBaseURL('api/');
+}
+
