@@ -168,7 +168,9 @@ export default {
     defaultTimeZone: 'Asia/Tashkent',
     plugins: ['utc', 'timezone', 'relativeTime', 'isSameOrBefore'],
   },
-
+  axios: {
+    baseURL: process.env.BASE_URL
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config, { loaders }) {
@@ -182,7 +184,6 @@ export default {
     },
   },
   devServerHandlers: [],
-
   storybook: {
     addons: ['storybook-dark-mode'],
     stories: [],
@@ -198,6 +199,10 @@ export default {
       },
     },
   },
+  server: {
+    port: 4007
+  },
+  target: 'server',
   generate: {
     subFolders: false
   },

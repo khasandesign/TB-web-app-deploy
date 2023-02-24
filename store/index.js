@@ -50,9 +50,9 @@ export const mutations = {
 }
 
 export const actions = {
-  nuxtServerInit({ commit }, { req }) {
-    if (req.headers.host) {
-      commit('ui/SET_DOMAIN', req.headers.host)
-    }
-  },
+  // nuxtServerInit({ commit }, { req }) {
+  //   if (req.headers.host) {
+  //     commit('ui/SET_DOMAIN', req.headers.host)
+  //   }
+  // },
 }

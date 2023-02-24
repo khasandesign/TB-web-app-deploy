@@ -194,6 +194,21 @@
   "HomeOurCourse": {
     "description": "Auto imported from components/HomePage/HomeOurCourse.vue"
   },
+  "AuthSendCodeProvider": {
+    "description": "Auto imported from components/auth/AuthSendCodeProvider.vue"
+  },
+  "AuthSocialButtons": {
+    "description": "Auto imported from components/auth/AuthSocialButtons.vue"
+  },
+  "AuthCircularLoading": {
+    "description": "Auto imported from components/auth/CircularLoading.vue"
+  },
+  "AuthCodeResend": {
+    "description": "Auto imported from components/auth/CodeResend.vue"
+  },
+  "AuthResetPasswordBreadcrumbs": {
+    "description": "Auto imported from components/auth/ResetPasswordBreadcrumbs.vue"
+  },
   "CourseCertificateAddressInput": {
     "description": "Auto imported from components/course/CertificateAddressInput.vue"
   },
@@ -230,20 +245,8 @@
   "IconsIconWhatsapp": {
     "description": "Auto imported from components/icons/IconWhatsapp.vue"
   },
-  "AuthSendCodeProvider": {
-    "description": "Auto imported from components/auth/AuthSendCodeProvider.vue"
-  },
-  "AuthSocialButtons": {
-    "description": "Auto imported from components/auth/AuthSocialButtons.vue"
-  },
-  "AuthCircularLoading": {
-    "description": "Auto imported from components/auth/CircularLoading.vue"
-  },
-  "AuthCodeResend": {
-    "description": "Auto imported from components/auth/CodeResend.vue"
-  },
-  "AuthResetPasswordBreadcrumbs": {
-    "description": "Auto imported from components/auth/ResetPasswordBreadcrumbs.vue"
+  "LessonCard": {
+    "description": "Auto imported from components/lesson/LessonCard.vue"
   },
   "LayoutAppHeader": {
     "description": "Auto imported from components/layout/AppHeader.vue"
@@ -265,9 +268,6 @@
   },
   "LayoutUserDropdown": {
     "description": "Auto imported from components/layout/UserDropdown.vue"
-  },
-  "LessonCard": {
-    "description": "Auto imported from components/lesson/LessonCard.vue"
   },
   "ProfileTeacher": {
     "description": "Auto imported from components/profile/ProfileTeacher.vue"
